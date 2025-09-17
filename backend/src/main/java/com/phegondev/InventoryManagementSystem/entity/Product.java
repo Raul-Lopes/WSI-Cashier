@@ -30,10 +30,10 @@ public class Product {
     @Column(unique = true)
     private String sku;
 
-    @Positive(message = "Product price msut be a positive value")
+    @Positive(message = "Product price have to be a positive value")
     private BigDecimal price;
 
-    @Min(value = 0, message = "Stock quantity cannot be lesser than zero")
+    @Min(value = 0, message = "Stock quantity have to be bigger than zero")
     private Integer stockQuantity;
 
     private String description;
