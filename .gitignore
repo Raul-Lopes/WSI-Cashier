@@ -43,3 +43,11 @@ Thumbs.db
 
 ### VS Code ###
 .vscode/
+
+
+### target ###
+/target
+/backend/target/
+node_modules/
+package-lock.json
+.angular/
